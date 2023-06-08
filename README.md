@@ -1,3 +1,4 @@
+<a id="home"></a>
 # API Documentation
 <p>
     Only for Freshers
@@ -25,8 +26,8 @@
         Value   =>  qwerty6284
 </p>
 
-<a id="GET"></a>
-GET => /api/user
+
+# GET => /api/user
 
 <h4>Examples </h4> Read the API documentation
 <p>
@@ -46,8 +47,10 @@ GET => /api/user
     }
 </p>
 
-<a id="POST"></a>
-POST => /api/user
+[Back to Home:](#home)
+
+
+# POST => /api/user
 
 <h4>Examples </h4> Write the API documentation
 <p>
@@ -70,7 +73,8 @@ POST => /api/user
     }
 </p>
 
-<a id="PUT"></a>
+[Back to Home:](#home)
+
 # PUT => /api/user/:id
 
 <h4>Examples </h4> Update the API documentation
@@ -94,8 +98,9 @@ POST => /api/user
     }
 </p>
 
-<a id="DELETE"></a>
-DELETE => /api/user/:id
+[Back to Home:](#home)
+
+# DELETE => /api/user/:id
 
 <h4>Examples </h4> DELETE the API documentation
 <p>
@@ -109,5 +114,7 @@ DELETE => /api/user/:id
         }
     }
 </p>
+
+[Back to Home:](#home)
 
 # Made By CaptAbhi
