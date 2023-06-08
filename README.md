@@ -4,9 +4,9 @@
 GET     /api/user
 
 <h4>Examples </h4>
+    API => http://localhost:6284/api/user
 <p>
 
-    API => http://localhost:6284/api/user
 
     <pre>
         sdg
