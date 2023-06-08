@@ -1,4 +1,20 @@
 # API Documentation
+<p>
+    Only for Freshers
+</p>
+
+# Table of Contents
+<details>
+<summary><b>API's</b></summary>
+<!-- MarkdownTOC -->
+
+1. [GET:](#GET)
+2. [POST:](#POST)
+3. [PUT:](#PUT)
+4. [DELETE:](#DELETE)
+
+<!-- /MarkdownTOC -->
+</details>
 
 <h2>Authorization Middleware</h2>
 <p>
@@ -9,6 +25,7 @@
         Value   =>  qwerty6284
 </p>
 
+<a id="GET"></a>
 GET => /api/user
 
 <h4>Examples </h4> Read the API documentation
@@ -29,6 +46,7 @@ GET => /api/user
     }
 </p>
 
+<a id="POST"></a>
 POST => /api/user
 
 <h4>Examples </h4> Write the API documentation
@@ -52,6 +70,7 @@ POST => /api/user
     }
 </p>
 
+<a id="PUT"></a>
 PUT => /api/user/:id
 
 <h4>Examples </h4> Update the API documentation
@@ -75,6 +94,7 @@ PUT => /api/user/:id
     }
 </p>
 
+<a id="DELETE"></a>
 DELETE => /api/user/:id
 
 <h4>Examples </h4> DELETE the API documentation

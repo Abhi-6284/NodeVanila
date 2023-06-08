@@ -1,4 +1,7 @@
 
+// if Not Use of GraphQL Server then Comment this ===========
+
+
 // const { User } = '../Models/model.api'
 
 // // Implement resolvers to fetch data
