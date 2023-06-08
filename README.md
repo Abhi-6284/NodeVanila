@@ -71,7 +71,7 @@ POST => /api/user
 </p>
 
 <a id="PUT"></a>
-PUT => /api/user/:id
+# PUT => /api/user/:id
 
 <h4>Examples </h4> Update the API documentation
 <p>
