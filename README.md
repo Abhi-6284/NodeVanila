@@ -1,7 +1,7 @@
 # API Documentation
 
 
-GET     /api/user
+GET => /api/user
 
 <h4>Examples </h4> Read the API documentation
 <p>
@@ -21,7 +21,7 @@ GET     /api/user
     }
 </p>
 
-POST    /api/user
+POST => /api/user
 
 <h4>Examples </h4> Write the API documentation
 <p>
@@ -44,7 +44,7 @@ POST    /api/user
     }
 </p>
 
-PUT     /api/user/:id
+PUT => /api/user/:id
 
 <h4>Examples </h4> Update the API documentation
 <p>
@@ -67,7 +67,7 @@ PUT     /api/user/:id
     }
 </p>
 
-DELETE  /api/user/:id
+DELETE => /api/user/:id
 
 <h4>Examples </h4> DELETE the API documentation
 <p>
