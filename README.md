@@ -4,7 +4,7 @@
 <p>
     Add in header for authorization
 
-    Headers
+    Add Headers
         key     =>  Authorization
         Value   =>  qwerty6284
 </p>
