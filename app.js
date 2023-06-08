@@ -2,19 +2,22 @@ const express = require('express');
 const { router } = require('./Routers/router');
 const ConnectDB = require('./Utils/database.utils');
 
-// GraphQL Server
+const app = express();
+const PORT = 6284;
+
+// if Not Use of GraphQL Server then Comment this ===========
+
+// Start GraphQL Server 
 // const resolvers = require('./GraphQL/resolvers');
 // const typeDefs = require('./GraphQL/graphqlSchema');
 
 // Create an instance of ApolloServer
 // const server = new ApolloServer({ typeDefs, resolvers });
 
-const app = express();
-const PORT = 6284;
-
 // Apply Apollo Server as middleware to the Express app
 // server.applyMiddleware({ app });
 
+// End GraphQL Server 
 
 app.use(express.json())
 
@@ -27,6 +30,10 @@ ConnectDB().then(() => {
     app.listen(PORT, () => {
         console.log(`listening on port http://localhost:${PORT}`);
     });
+
+
+    // if Not Use of GraphQL Server then Comment this ===========
+    
     // app.listen(PORT , () =>
     //     console.log(`Server ready at http://localhost:4000${server.graphqlPath}`)
     // );

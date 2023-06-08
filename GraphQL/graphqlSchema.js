@@ -1,3 +1,6 @@
+
+// if Not Use of GraphQL Server then Comment this ===========
+
 // const { gql } = require('apollo-server-express');
 
 // // Define your GraphQL schema
