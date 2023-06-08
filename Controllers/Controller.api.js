@@ -21,13 +21,11 @@ exports.createUser = async (req, res) => {
     res.status(201).send({ data: userData });
 }
 exports.getPutDataApi = async (req, res) => {
-    const { id, name} = req.body;
-    const userDataToUpdate = {
-        name: name
-    }
+    console.log(req.body);
+    const userDataToUpdate = req.body
 
     try {   
-        const userData = await User.updateMany({_id: id}, {$set: userDataToUpdate})
+        const userData = await User.updateMany({_id: req.params.id}, {$set: userDataToUpdate})
         res.status(200).send({ data: userData});
     } catch (error) {
         res.status(404).send({ errorMessage: error.message });
