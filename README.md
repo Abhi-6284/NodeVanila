@@ -26,7 +26,7 @@
         Value   =>  qwerty6284
 </p>
 
-
+<a id="GET"></a>
 # GET => /api/user
 
 <h4>Examples </h4> Read the API documentation
@@ -49,6 +49,7 @@
 
 [Back to Home:](#home)
 
+<a id="POST"></a>
 
 # POST => /api/user
 
@@ -75,6 +76,8 @@
 
 [Back to Home:](#home)
 
+<a id="PUT"></a>
+
 # PUT => /api/user/:id
 
 <h4>Examples </h4> Update the API documentation
@@ -99,6 +102,8 @@
 </p>
 
 [Back to Home:](#home)
+
+<a id="DELETE"></a>
 
 # DELETE => /api/user/:id
 
