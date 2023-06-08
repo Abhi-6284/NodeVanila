@@ -54,6 +54,17 @@ PUT     /api/user/:id
     {
         "name": "Prashant"
     }
+
+    OUTPUT =>
+    {
+        "data": {
+            "acknowledged": true,
+            "modifiedCount": 1,
+            "upsertedId": null,
+            "upsertedCount": 0,
+            "matchedCount": 1
+        }
+    }
 </p>
 
 DELETE  /api/user/:id
