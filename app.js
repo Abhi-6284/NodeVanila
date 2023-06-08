@@ -10,7 +10,7 @@ const ConnectDB = require('./Utils/database.utils');
 // const server = new ApolloServer({ typeDefs, resolvers });
 
 const app = express();
-const PORT = 4565;
+const PORT = 6284;
 
 // Apply Apollo Server as middleware to the Express app
 // server.applyMiddleware({ app });
