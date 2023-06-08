@@ -1,5 +1,13 @@
 # API Documentation
 
+<h2>Authorization Middleware</h2>
+<p>
+    Add in header for authorization
+
+    Headers
+        key     =>  Authorization
+        Value   =>  qwerty6284
+</p>
 
 GET => /api/user
 
